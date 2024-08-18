@@ -44,4 +44,3 @@ Error: init mode failed (unable to connect to the target)
 ```
 
 ## Usage
-- 
