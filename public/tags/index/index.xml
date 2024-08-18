@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Index on James Fawcett</title>
+    <link>//localhost:1313/tags/index/</link>
+    <description>Recent content in Index on James Fawcett</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© [James Fawcett](https://4cett.uk).</copyright>
+    <lastBuildDate>Tue, 06 Aug 2024 20:08:20 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>//localhost:1313/projects/</link>
+      <pubDate>Tue, 06 Aug 2024 20:08:20 +0100</pubDate>
+      <guid>//localhost:1313/projects/</guid>
+      <description>Here are some of my personal engineering projects.</description>
+    </item>
+  </channel>
+</rss>

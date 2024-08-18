@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on James Fawcett</title>
+    <link>//localhost:1313/projects/</link>
+    <description>Recent content in Projects on James Fawcett</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© [James Fawcett](https://4cett.uk).</copyright>
+    <lastBuildDate>Tue, 06 Aug 2024 20:53:28 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ARM Cortex-M Debugging in VSCode</title>
+      <link>//localhost:1313/projects/arm-debugging-vscode/</link>
+      <pubDate>Tue, 06 Aug 2024 20:53:28 +0100</pubDate>
+      <guid>//localhost:1313/projects/arm-debugging-vscode/</guid>
+      <description>Setup Install the Cortex-Debug extension in VSCode. Install the extra/arm-none-eabi-gdb Arch package. Create launch.json in project folder from this template for STM32F303CBT6 with a Nucleo debugger: { &amp;#34;version&amp;#34;: &amp;#34;0.2.0&amp;#34;, &amp;#34;configurations&amp;#34;: [ { &amp;#34;name&amp;#34;: &amp;#34;Debug (ST-Link)&amp;#34;, &amp;#34;type&amp;#34;: &amp;#34;cortex-debug&amp;#34;, &amp;#34;request&amp;#34;: &amp;#34;launch&amp;#34;, &amp;#34;servertype&amp;#34;: &amp;#34;openocd&amp;#34;, &amp;#34;cwd&amp;#34;: &amp;#34;${workspaceRoot}&amp;#34;, &amp;#34;executable&amp;#34;: &amp;#34;./.build/your_build_name.elf&amp;#34;, &amp;#34;interface&amp;#34;: &amp;#34;swd&amp;#34;, &amp;#34;configFiles&amp;#34;: [ &amp;#34;/usr/share/openocd/scripts/interface/stlink.cfg&amp;#34;, &amp;#34;/usr/share/openocd/scripts/target/stm32f3x.cfg&amp;#34; ], &amp;#34;device&amp;#34;: &amp;#34;STM32F303CBT6&amp;#34;, // This should match your MCU model &amp;#34;gdbPath&amp;#34;: &amp;#34;/usr/bin/arm-none-eabi-gdb&amp;#34;, &amp;#34;svdFile&amp;#34;: &amp;#34;${workspaceFolder}/.vscode/STM32F303.svd&amp;#34; // Optional: Path to SVD file for peripheral register insight } ] } Connect debugger to computer and press F5.</description>
+    </item>
+  </channel>
+</rss>
